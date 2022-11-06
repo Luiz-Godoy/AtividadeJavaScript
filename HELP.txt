@@ -1,0 +1,13 @@
+To execute the .php on web use those commands on CMD:
+---------------------------------------------------
+
+cd C:\Project's Path\cadastrodepresenca
+
+php -S localhost:9876 -t src/Web
+
+---------------------------------------------------
+
+If you get problems with it, execute too:
+---------------------------------------------------
+
+composer dump-autoload
